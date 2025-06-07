@@ -46,7 +46,12 @@ gobuster -u http://fakebank.thm -w wordlist.txt dir
 
 ## 🧾 Flags
 
-- **Flag:** `BANK-HACKED`
+<details>
+  <summary><strong>Flag</strong></summary>
+
+`BANK-HACKED`
+
+</details>
 
 ---
 

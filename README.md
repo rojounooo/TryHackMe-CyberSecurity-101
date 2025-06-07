@@ -4,10 +4,7 @@ Welcome to my public repository documenting my progress through the [TryHackMe](
 
 - ✅ My progress through each module
 - 🧠 My thought process and key takeaways
-- 🎯 Learning objectives and how I met them
 - 📂 Structured notes, walkthroughs, and useful commands
-
-> This is not just a record of completion — it's a reflection of my learning and understanding.
 
 ---
 
@@ -31,8 +28,8 @@ I am using this path as a stepping stone into the broader field of cyber securit
 | Start Your Cyber Security Journey | 🟢 Easy | ✅ Completed | [link](./01-start-cybersecurity-journey) |
 | Linux Fundamentals | 🟡 Medium | ⏳ In Progress | [link](./02-linux-fundamentals) |
 | Windows and AD Fundamentals | 🟡 Medium | 🔲 Not Started | [link](./03-windows-ad-fundamentals) |
-| Command Line | 🟢 Easy | ✅ Completed | [link](./04-command-line) |
-| Networking | 🟡 Medium | ⏳ In Progress | [link](./05-networking) |
+| Command Line | 🟢 Easy | 🔲 Not Started | [link](./04-command-line) |
+| Networking | 🟡 Medium | 🔲 Not Started | [link](./05-networking) |
 | Cryptography | 🟡 Medium | 🔲 Not Started | [link](./06-cryptography) |
 | Exploitation Basics | 🔴 Hard | 🔲 Not Started | [link](./07-exploitation-basics) |
 | Web Hacking | 🔴 Hard | 🔲 Not Started | [link](./08-web-hacking) |
@@ -42,7 +39,7 @@ I am using this path as a stepping stone into the broader field of cyber securit
 | Defensive Security Tooling | 🔴 Hard | 🔲 Not Started | [link](./12-defsec-tooling) |
 
 > ✅ = Completed | ⏳ = In Progress | 🔲 = Not Started  
-> *Difficulty icons are subjective and reflect my experience with the module.*
+> *Difficulty icons are based on TryHackMe allocation*
 
 ---
 
@@ -50,35 +47,30 @@ I am using this path as a stepping stone into the broader field of cyber securit
 
 Each module has its own folder with the following contents (where applicable):
 
-- `README.md`: Overview and personal notes  
-- `walkthrough.md`: Step-by-step solutions and commands used  
-- `takeaways.md`: What I learned and key concepts  
-- `resources.md`: External links, cheat sheets, or references  
-
+- `README.md`: Full walkthrough of the room
+- `/screenshots`: Contains screenshots taken from the AttackBox of scan results, output of commmands, etc
 ---
 
 ## 🚧 Work in Progress
 
-This repository will be regularly updated as I progress through the path. Feel free to star or fork it if you're on the same journey — or open an issue if you'd like to collaborate, suggest changes, or ask questions!
+This repository will be regularly updated as I progress through the path. Feel free to star or fork it if you're on the same journey.
 
 ---
 
 ## 📜 Disclaimer
 
-This repository is for **educational purposes only** and is **not affiliated with or endorsed by TryHackMe**. All content and materials provided here reflect my own learning and are not intended to redistribute or reproduce proprietary TryHackMe content. Please respect the TryHackMe terms of service and do not share challenge answers directly.
+This repository is for **educational purposes only** and is **not affiliated with or endorsed by TryHackMe**. All content and materials provided here reflect my own learning and are not intended to redistribute or reproduce proprietary TryHackMe content. Please respect the TryHackMe terms of service. All my answers will be hidden and will require manual interaction to view
 
 ---
 
 ## 🔗 Useful Links
 
-- 🌐 [TryHackMe – Cyber Security 101 Path](https://tryhackme.com/path/BEGINNER/cyber-security-101)
-- 📓 [My CyberSec Notes (Notion / External)](https://your-notion-or-link-if-any.com)
-- 🛠️ [Recommended Tools & Setup](./tools-setup.md)
+- 🌐 [TryHackMe – Cyber Security 101 Path](https://tryhackme.com/paths)
 
 ---
 
 ## ✍️ Author
 
-**Your Name**  
+**Radwan Rahman**  
 Aspiring Cyber Security Practitioner  
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@rojounooo](https://github.com/rojounooo)
