@@ -3,7 +3,6 @@
 > **Room URL:** [https://tryhackme.com/room/roomname](https://tryhackme.com/room/roomname)  
 > **Difficulty:** [Easy | Medium | Hard]  
 > **Category:** [e.g., Offensive Security, CTF, Web, Networking]  
-> **Date Completed:** YYYY-MM-DD
 
 ---
 
