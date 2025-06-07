@@ -19,7 +19,7 @@ Each room folder contains:
 
 | 🏁 Module Name                | 🎯 Difficulty | 📌 Status       | 🔗 Link |
 |----------------------------|---------------|------------------|--------|
-| Offensive Security Intro | 🟢 Easy     | ✅ Completed     | [View](./Cybersecurity-101/Offensive) |
+| Offensive Security Intro | 🟢 Easy     | ✅ Completed     | [View](./Cybersecurity-101/Start-Your-Cyber-Security-Journey) |
 | Network Security            | 🟡 Medium     | 🕒 In Progress   | [View](./Cybersecurity-101/Network-Security) |
 | Linux Fundamentals          | 🟢 Easy       | ✅ Completed     | [View](./Cybersecurity-101/Linux-Fundamentals) |
 | ...                        | ...           | ...              | ...    |
