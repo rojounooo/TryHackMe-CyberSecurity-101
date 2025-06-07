@@ -25,20 +25,26 @@ I am using this path as a stepping stone into the broader field of cyber securit
 
 | Module Name | Difficulty | Progress | Module Folder Link |
 |-------------|------------|----------|---------------------|
-| Start Your Cyber Security Journey | 🟢 Easy | ✅ Completed | [link](./01-start-cybersecurity-journey) |
-| Linux Fundamentals | 🟡 Medium | ⏳ In Progress | [link](./02-linux-fundamentals) |
-| Windows and AD Fundamentals | 🟡 Medium | 🔲 Not Started | [link](./03-windows-ad-fundamentals) |
-| Command Line | 🟢 Easy | 🔲 Not Started | [link](./04-command-line) |
-| Networking | 🟡 Medium | 🔲 Not Started | [link](./05-networking) |
-| Cryptography | 🟡 Medium | 🔲 Not Started | [link](./06-cryptography) |
-| Exploitation Basics | 🔴 Hard | 🔲 Not Started | [link](./07-exploitation-basics) |
-| Web Hacking | 🔴 Hard | 🔲 Not Started | [link](./08-web-hacking) |
-| Offensive Security Tooling | 🔴 Hard | 🔲 Not Started | [link](./09-offsec-tooling) |
-| Defensive Security | 🟡 Medium | 🔲 Not Started | [link](./10-defensive-security) |
-| Security Solutions | 🟡 Medium | 🔲 Not Started | [link](./11-security-solutions) |
-| Defensive Security Tooling | 🔴 Hard | 🔲 Not Started | [link](./12-defsec-tooling) |
+| Start Your Cyber Security Journey | 🟢  | ✅  | [View](./01-start-cybersecurity-journey) |
+| Linux Fundamentals | 🟡 | ⏳  | [View](./02-linux-fundamentals) |
+| Windows and AD Fundamentals | 🟡 | 🔲  | [View](./03-windows-ad-fundamentals) |
+| Command Line | 🟢  | 🔲  | [View](./04-command-line) |
+| Networking | 🟡 | 🔲  | [View](./05-networking) |
+| Cryptography | 🟡 | 🔲  | [View](./06-cryptography) |
+| Exploitation Basics | 🔴  | 🔲  | [View](./07-exploitation-basics) |
+| Web Hacking | 🔴  | 🔲  | [View](./08-web-hacking) |
+| Offensive Security Tooling | 🔴  | 🔲  | [View](./09-offsec-tooling) |
+| Defensive Security | 🟡 | 🔲  | [View](./10-defensive-security) |
+| Security Solutions | 🟡 | 🔲  | [View](./11-security-solutions) |
+| Defensive Security Tooling | 🔴  | 🔲  | [View](./12-defsec-tooling) |
 
-> ✅ = Completed | ⏳ = In Progress | 🔲 = Not Started  
+### Key
+✅ = Completed 
+⏳ = In Progress
+🔲 = Not Completed
+🟢 = Easy
+🟡 = Medium 
+🔴 = Hard
 > *Difficulty icons are based on TryHackMe allocation*
 
 ---
