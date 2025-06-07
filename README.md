@@ -17,9 +17,9 @@ Each room folder contains:
 
 ## 🧭 Cybersecurity 101 Path
 
-| 🏁 Room Name                | 🎯 Difficulty | 📌 Status       | 🔗 Link |
+| 🏁 Module Name                | 🎯 Difficulty | 📌 Status       | 🔗 Link |
 |----------------------------|---------------|------------------|--------|
-| Introduction to Cybersecurity | 🟢 Easy     | ✅ Completed     | [View](./Cybersecurity-101/Intro-to-Cybersecurity) |
+| Offensive Security Intro | 🟢 Easy     | ✅ Completed     | [View](./Cybersecurity-101/Offensive) |
 | Network Security            | 🟡 Medium     | 🕒 In Progress   | [View](./Cybersecurity-101/Network-Security) |
 | Linux Fundamentals          | 🟢 Easy       | ✅ Completed     | [View](./Cybersecurity-101/Linux-Fundamentals) |
 | ...                        | ...           | ...              | ...    |
