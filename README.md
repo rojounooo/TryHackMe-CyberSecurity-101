@@ -24,7 +24,7 @@ Each room folder contains:
 | Linux Fundamentals          | 🟢 Easy       | ✅ Completed     | [View](./Cybersecurity-101/Linux-Fundamentals) |
 | ...                        | ...           | ...              | ...    |
 
-🔗 Full path on TryHackMe: [Cybersecurity 101]([https://tryhackme.com/path/room/cybersecurity101](https://tryhackme.com/path/outline/cybersecurity101)) *(login required)*
+🔗 Full path on TryHackMe: <a href="https://tryhackme.com/path/outline/cybersecurity101"> Cybersecurity 101 </a> *(login required)*
 
 ---
 
