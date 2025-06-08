@@ -45,19 +45,26 @@ This task just provides a checklist for identifying whether a source is reliable
 
 ### ⚙️ Task 3: Search Engines
 **Concepts Covered**:
-- Bullet points of key concepts
+- Search Operators used by Google 
+    - "exact phrase": Double quotes to indicate you are looking for pages with that exact phrase, results will only include pages with the phrase in it
+    - site: Filters by domain name 
+    - "-": The minus symbol removes results with a specific word or phrase
+    - filetype: Only returns results with the specified filetype
 
 **My Notes**:
 ```
-More personal notes or command explanations
+Goes over the operators to get more filtered results, this is useful for both OSINT and just general web searching
 ```
-### ⚙️ Task 4: Search Engines
+### ⚙️ Task 4: Specialized Search Engines
 **Concepts Covered**:
-- Bullet points of key concepts
+- **Shodan** - Search Engine for devices and systems connected to the internet like servers and IoT devices
+- **Censys** - Search engine for hosts, website and certificates
+- **VirusTotal** - Online virus scanning service
+- **Have I Been Pwned** - Database to check whether email or password has been in recent leaked data breaches
 
 **My Notes**:
 ```
-More personal notes or command explanations
+Useful when checking for specific services. It can also be used for potential phishing emails, if a document has been provided it can be run through VirusTotal.
 ```
 ### ⚙️ Task 5: Search Engines
 **Concepts Covered**:
@@ -103,6 +110,4 @@ More personal notes or command explanations
 
 ---
 
-## 🔗 Additional Resources
 
-- [Resource Name](URL) – Short description
