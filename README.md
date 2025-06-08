@@ -25,8 +25,8 @@ I am using this path as a stepping stone into the broader field of cyber securit
 
 | Module Name | Difficulty | Progress | Module Folder Link |
 |-------------|------------|----------|---------------------|
-| Start Your Cyber Security Journey | 🟢  | ✅  | [View](./01-start-cybersecurity-journey) |
-| Linux Fundamentals | 🟡 | ⏳  | [View](./02-linux-fundamentals) |
+| Start Your Cyber Security Journey | 🟢  | ⏳  | [View](./01-start-cybersecurity-journey) |
+| Linux Fundamentals | 🟡 | 🔲  | [View](./02-linux-fundamentals) |
 | Windows and AD Fundamentals | 🟡 | 🔲  | [View](./03-windows-ad-fundamentals) |
 | Command Line | 🟢  | 🔲  | [View](./04-command-line) |
 | Networking | 🟡 | 🔲  | [View](./05-networking) |
@@ -50,11 +50,22 @@ I am using this path as a stepping stone into the broader field of cyber securit
 ---
 
 ## 🧠 How This Repo Is Structured
-
-Each module has its own folder with the following contents (where applicable):
-
-- `README.md`: Full walkthrough of the room
-- `/screenshots`: Contains screenshots taken from the AttackBox of scan results, output of commmands, etc
+The repo will be structured in the following format. My notes for each room will be in notes.md and any questions or flags will be answered in walkthrough.md with my steps shown and explanations given.
+```
+Module-Name/
+├── Room-1/
+│   ├── notes.md
+│   ├── walktrhough.md
+│   └── screenshots/
+├── Room-2/
+│   ├── notes.md
+│   ├── walkthrough.md
+│   └── screenshots/
+└── Room-3/
+    ├── notes.md
+    ├── walkthrough.md
+    └── screenshots/
+```
 ---
 
 ## 🚧 Work in Progress
