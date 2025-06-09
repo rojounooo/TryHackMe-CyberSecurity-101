@@ -71,9 +71,12 @@ This room covers techniques to use to find relevant information when researching
     - A web-based platform for software developers
     - Contains many CVE related tools, with proof-of-concept and exploit codes
 
-### ⚙️ Task 6: Search Engines
+### ⚙️ Task 6: Technical Documentation
 **Concepts Covered**:
-- Bullet points of key concepts
+- Linux Manual Pages
+    - "man" for short 
+    - `man {command}` to get the manual pages on linux, can also search for them in a browser 
+    - man pages contain detailed information about the cool, flags and how to use them
 
 ### ⚙️ Task 7: Search Engines
 **Concepts Covered**:
@@ -90,9 +93,12 @@ This room covers techniques to use to find relevant information when researching
 
 | Tool/Command | Purpose |
 |--------------|---------|
-| `nmap`       | Network scanning |
-| `whois`      | Domain info lookup |
-
+| `Shodan`                    | Internet connected devices lookup                |
+| `Censys`                    | Internet connected hosts, certificate etc lookup |
+| `VirusTotal`                | File check                                       |
+| `Have I Been Pwned`         | Check if credentials have been leaked in breach  |
+| `CVE website`               | Contains CVE information                         |
+| `Exploit DB`/ `Searchsploit`| List of exploit codes                            |
 ---
 
 
