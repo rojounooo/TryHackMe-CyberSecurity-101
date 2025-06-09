@@ -35,12 +35,6 @@ This room covers techniques to use to find relevant information when researching
         - Is the author biased, do they only provide one perspective or multiple?
     - Corroboration and Consistency:
         - Check multiple sources for similar claims, the first source is not a "be all end all"
-
-**My Notes**:
-```
-This task just provides a checklist for identifying whether a source is reliable or not.
-```
-
 ---
 
 ### ⚙️ Task 3: Search Engines
@@ -51,10 +45,6 @@ This task just provides a checklist for identifying whether a source is reliable
     - "-": The minus symbol removes results with a specific word or phrase
     - filetype: Only returns results with the specified filetype
 
-**My Notes**:
-```
-Goes over the operators to get more filtered results, this is useful for both OSINT and just general web searching
-```
 ### ⚙️ Task 4: Specialized Search Engines
 **Concepts Covered**:
 - **Shodan** - Search Engine for devices and systems connected to the internet like servers and IoT devices
@@ -62,37 +52,32 @@ Goes over the operators to get more filtered results, this is useful for both OS
 - **VirusTotal** - Online virus scanning service
 - **Have I Been Pwned** - Database to check whether email or password has been in recent leaked data breaches
 
-**My Notes**:
-```
-Useful when checking for specific services. It can also be used for potential phishing emails, if a document has been provided it can be run through VirusTotal.
-```
-### ⚙️ Task 5: Search Engines
+### ⚙️ Task 5: Vulnerabilities and Exploits
 **Concepts Covered**:
-- Bullet points of key concepts
+- **CVE**:
+    - Common Vulnerabilities and Exposures
+    - The program is like a dictionary of vulnerabilities
+    - Standardized ID for vulnerabilites and issues in software and hardware products
+    - Each is assigned a CVE ID with the following format `CVE-YEAR-XXXXX`
+    - MITRE maintain the **CVE** program, there is a <a href="https://www.cve.org/">CVE Program </a> website and the <a href="https://nvd.nist.gov/">National Vulnerability Database </a> (**NVD**) website
 
-**My Notes**:
-```
-More personal notes or command explanations
-```
+- Exploit Database (**Exploit DB**)
+    - Do not attempt exploitable unless given permission (usually via a legal contract) 
+    - Exploit DB contains exploit codes from various authors for different vulnerabilities
+    - Some are tested and verified
+    - Exploit Database has a <a href="https://www.exploit-db.com/"> website </a> and there is also a terminal tool known as searchsploit
+
+- **GitHub**
+    - A web-based platform for software developers
+    - Contains many CVE related tools, with proof-of-concept and exploit codes
+
 ### ⚙️ Task 6: Search Engines
 **Concepts Covered**:
 - Bullet points of key concepts
 
-**My Notes**:
-```
-More personal notes or command explanations
-```
 ### ⚙️ Task 7: Search Engines
 **Concepts Covered**:
 - Bullet points of key concepts
-
-**My Notes**:
-```
-More personal notes or command explanations
-```
-
-(Repeat for all tasks that are informational)
-
 ---
 
 ## 🧠 Key Takeaways

@@ -101,30 +101,17 @@ There are multiple options, but we want to use the Search option as we have a ha
 ---
 
 ### 🧩 Task 5: Vulnerabilities and Exploits
-> **Question:** What do you call a cryptographic method or product considered bogus or fraudulent?
+> **Question:** What utility does CVE-2024-3094 refer to?
 
 **Steps Taken:**
-Search for the answer
+Check the CVE website for the vulnerability
 
 **Explanation:**
-The answer is not provided in the room it has to be searched for.
+Was provided with a CVE ID so checked the CVE Website which contains information about CVEs
 
 <details>
     <summary><strong>Answer</strong></summary>
-        snake oil
-</details>
-
-> **Question:** What is the name of the command replacing `netstat` in Linux systems?
-
-**Steps Taken:**
-Search for the answer
-
-**Explanation:**
-The answer is not provided in the room it has to be searched for.
-
-<details>
-    <summary><strong>Answer</strong></summary>
-        ss
+        xz
 </details>
 ---
 
