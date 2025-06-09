@@ -73,10 +73,15 @@ This room covers techniques to use to find relevant information when researching
 
 ### ⚙️ Task 6: Technical Documentation
 **Concepts Covered**:
-- Linux Manual Pages
+- **Linux Manual Pages**
     - "man" for short 
     - `man {command}` to get the manual pages on linux, can also search for them in a browser 
     - man pages contain detailed information about the cool, flags and how to use them
+
+- **Microsoft Windows**
+    - 
+    - 
+    - 
 
 ### ⚙️ Task 7: Search Engines
 **Concepts Covered**:
