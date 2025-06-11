@@ -73,26 +73,28 @@ This room covers techniques to use to find relevant information when researching
 
 ### ⚙️ Task 6: Technical Documentation
 **Concepts Covered**:
-- **Linux Manual Pages**
-    - "man" for short 
-    - `man {command}` to get the manual pages on linux, can also search for them in a browser 
-    - man pages contain detailed information about the cool, flags and how to use them
+- **Linux Manual Pages**  
+    - "man" for short  
+    - `man {command}` to get the manual pages on Linux; can also search for them in a browser  
+    - man pages contain detailed information about the tool, flags, and how to use them  
 
-- **Microsoft Windows**
-    - 
-    - 
-    - 
+- **Microsoft Windows**  
+    - Microsoft provides official technical documentation for its products  
+    - Searching for commands like `ipconfig` on the Microsoft Technical Documentation website returns detailed, official results  
+    - Official documentation is the most reliable, up-to-date source for understanding product features and functions  
 
-### ⚙️ Task 7: Search Engines
+### ⚙️ Task 7: Social Media 
 **Concepts Covered**:
-- Bullet points of key concepts
+- - **Social Media and Cyber Security**  
+    - Billions of users are registered on platforms like Facebook, Twitter, and LinkedIn  
+    - Exploring new platforms is encouraged; temporary email addresses can be used for privacy during exploration  
+    - Avoid using your primary account to prevent unwanted connections while testing platforms  
+    - Social media is a powerful tool to connect with people and companies of interest  
+    - It’s crucial to monitor oversharing by individuals, which could expose personal data used in account recovery (e.g., secret questions)  
+    - Cyber security professionals can use social media to stay current with trends, tools, and industry news  
+    - Following reliable channels, groups, and news outlets helps grow technical expertise and awareness
 ---
 
-## 🧠 Key Takeaways
-
-- Short summary of important concepts to remember
-
----
 
 ## 🛠️ Tools/Commands Learned
 
