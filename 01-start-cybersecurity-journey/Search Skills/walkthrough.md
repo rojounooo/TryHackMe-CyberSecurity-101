@@ -116,67 +116,64 @@ Was provided with a CVE ID so checked the CVE Website which contains information
 ---
 
 ### 🧩 Task 6: Technical Documentation
-> **Question:** What do you call a cryptographic method or product considered bogus or fraudulent?
+> **Question:** What does the Linux command cat stand for?
 
 **Steps Taken:**
-Search for the answer
+On a linux terminal run `man cat` or do a quick search for it online.
 
 **Explanation:**
-The answer is not provided in the room it has to be searched for.
+All linux commands have a **manual** page with the full name for the command
 
 <details>
     <summary><strong>Answer</strong></summary>
-        snake oil
+        concatenate
 </details>
 
-> **Question:** What is the name of the command replacing `netstat` in Linux systems?
+> **Question:** What is the netstat parameter in MS Windows that displays the executable associated with each active connection and listening port?
 
 **Steps Taken:**
-Search for the answer
+Check Microsoft Technical Documentation
 
 **Explanation:**
-The answer is not provided in the room it has to be searched for.
+All microsoft terminal commands have official documentation
 
 <details>
     <summary><strong>Answer</strong></summary>
-        ss
+        -b
 </details>
 ---
 
 ### 🧩 Task 7: Social Media
-> **Question:** What do you call a cryptographic method or product considered bogus or fraudulent?
+> **Question:** You are hired to evaluate the security of a particular company. What is a popular social media website you would use to learn about the technical background of one of their employees?
 
 **Steps Taken:**
-Search for the answer
+Searched for professional social media platforms
 
 **Explanation:**
-The answer is not provided in the room it has to be searched for.
+Common platforms such as snapchat or twitter probably aren't used to talk about professional environments.
 
 <details>
     <summary><strong>Answer</strong></summary>
-        snake oil
+        LinkedIn
 </details>
 
-> **Question:** What is the name of the command replacing `netstat` in Linux systems?
-
-**Steps Taken:**
-Search for the answer
+> **Question:** Continuing with the previous scenario, you are trying to find the answer to the secret question, “Which school did you go to as a child?”. What social media website would you consider checking to find the answer to such secret questions?
 
 **Explanation:**
-The answer is not provided in the room it has to be searched for.
+I know the answer has an option to show education.
 
 <details>
     <summary><strong>Answer</strong></summary>
-        ss
+        Facebook
 </details>
 ---
 
 ## 📊 Summary
 
-- Total Flags: [#]
-- Difficulty: [Your personal rating]
-- Time Taken: [e.g., 2 hours]
-- Notes: Anything worth remembering for future rooms.
+- Total Flags: 8
+- Difficulty: Easy
+- Time Taken: 15 Minutes
+
 
 
 ---
