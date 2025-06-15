@@ -25,8 +25,8 @@ I am using this path as a stepping stone into the broader field of cyber securit
 
 | Module Name | Difficulty | Progress | Module Folder Link |
 |-------------|------------|----------|---------------------|
-| Start Your Cyber Security Journey | 🟢  | ⏳  | [View](./01-start-cybersecurity-journey) |
-| Linux Fundamentals | 🟡 | 🔲  | [View](./02-linux-fundamentals) |
+| Start Your Cyber Security Journey | 🟢  | ✅  | [View](./01-start-cybersecurity-journey) |
+| Linux Fundamentals | 🟢 | ⏳  | [View](./02-linux-fundamentals) |
 | Windows and AD Fundamentals | 🟡 | 🔲  | [View](./03-windows-ad-fundamentals) |
 | Command Line | 🟢  | 🔲  | [View](./04-command-line) |
 | Networking | 🟡 | 🔲  | [View](./05-networking) |
