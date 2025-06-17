@@ -1,7 +1,7 @@
 # 🏫 TryHackMe Room: Linux 
 
-> Category: 
-> Difficulty: 
+> Category:  
+> Difficulty:  
 > Room URL: https://tryhackme.com/room/
 
 ---
@@ -15,7 +15,6 @@
 - Automation 
 - Logging 
 - Package Management
-
 
 ---
 
@@ -51,151 +50,218 @@
     - **Learning Resources** – Many tutorials, cheatsheets, and guides available
     - TryHackMe offers a dedicated VIM room for learning
 
+---
 
-### ⚙️ Task 4: General/Useful Utilities
+### ⚙️ Task 4: General/Useful Utilities  
 **Concepts Covered**:
+
 - `wget`:
-    - A command-line utility to download files via HTTP/HTTPS
-    - Works similarly to downloading a file in a browser
-    ```bash 
-    Basic command: 
+    - Command-line utility to download files via HTTP/HTTPS
+    - Works like a browser download
+    ```bash
     wget https://example.com
     ```
 
-- `scp`
-    - Secure Transfer Protocol
-    - Securely transfers files between computers over SSH
-    - Offers authentication and encryption
-    - Works using the `SOURCE` → `DESTINATION` model
-    - Can transfer files from local to remote system or vice versa
+- `scp`:
+    - Securely transfers files over SSH
+    - Uses `SOURCE → DESTINATION` format
+    - Examples:
     ```bash
-    Local → Remote 
-    scp localfile user@remote:/path/to/destination
-    ```
-    ```bash 
-    Remote → Local 
-    scp user@remote:/path/to/file localdestination
+    # Local → Remote
+    scp file.txt user@remote:/path/
+
+    # Remote → Local
+    scp user@remote:/path/file.txt . 
     ```
 
-- Python HTTP Server
-    - Ubuntu includes Python3 by default
-    - Python's `http.server` module can be used to serve files over HTTP
-    - Ideal for simple, quick file sharing on a local network
-    - Serves files from current directory by default 
-    - Directory can be changed using flags 
-    - Clients can download files using:
-        - `wget`
-        - `curl`
-    ```bash
-    Basic Command 
-    python3 -m http.server
-    ```
+- Python HTTP Server:
+    - Use `python3 -m http.server` to serve files from current directory
+    - Can be accessed by other machines via `wget` or `curl`
+    - Useful for quick, local file sharing
 
-### ⚙️ Task 5: Processes 101
+---
+
+### ⚙️ Task 5: Processes 101  
 **Concepts Covered**:
 
-
-### ⚙️ Task : 
-**Concepts Covered**:
-- Processes:
-    - Programs running on your machine
+- **Processes**:
+    - Every running program is a process
     - Managed by the kernel
-    - Each process has a **PID** (Process ID)
-    - PIDs increment based on the order the process starts (e.g., 60th process has PID 60)
+    - Identified by a unique **PID** (Process ID)
 
-- Viewing Processes:
-    - `ps` 
-    - Provides a snapshot of running processes for the current session
-    - Shows:
-        - PID
-        - Status code
-        - Session ID
-        - CPU usage time
-        - Executed command/program
+- **Viewing Processes**:
+    - `ps` shows running processes for the current session
+    - `top` gives a real-time view of all system processes
 
-    - `top`
-        - Displays real-time system process statistics
-        - Auto-refreshes every 10 seconds
-        - Refreshes on arrow key input
+- **Managing Processes**:
+    - `kill [PID]` ends a process
+    - Common signals:
+        - `SIGTERM` – Graceful termination
+        - `SIGKILL` – Forceful termination
+        - `SIGSTOP` – Suspends the process
 
-- Managing Processes: 
-    - `kill`
-    - Terminates processes based on PID
-        ```bash 
-        kill 1337
-        ```
-    - Common Signals:
-        - `SIGTERM` - Stops process but allows cleanup
-        - `SIGKILL` - Forcefully stops with no cleanup
-        - `SIGSTOP` – Suspends process
+- **Namespaces**:
+    - Used to isolate resources for groups of processes
+    - Provides security and separation between processes
 
-- Namespaces:
-    - OS uses **namespaces** to divide system resources
-    - Isolates groups of processes for security and management
-    - Only processes in the same namespace can see each other
+- **systemd and PID 0**:
+    - PID 0 is the first process at boot (usually `systemd` in Ubuntu)
+    - `systemd` starts and manages other processes as children
 
-- PID 0 & `systemd`
-    - Process with PID 0 starts at system boot
-    - Launches `systemd` (on Ubuntu), which:
-    - Manages user processes
-    - Starts other programs as **child processes**
-    - Provides structure and resource control
+- **Starting Services on Boot**:
+    - Use `systemctl`:
+    ```bash
+    systemctl start apache2
+    systemctl enable apache2
+    ```
 
-- Starting services on boot:
-    `systemctl`
-    - Interface for managing `systemd` services
-    - Common options:
-        - `start` – Starts a service
-        - `stop` – Stops a service
-        - `enable` – Enables service to start at boot
-        - `disable` – Disables service from starting at boot
-    
-    - Example:
-        - Apache Server:
-        ```bash 
-        systemctl start apache2
-        systemctl enable apache2
-        ```
+- **Foreground vs Background Processes**:
+    - Foreground: Runs interactively in terminal
+    - Background: Appending `&` lets processes run without blocking terminal
+    - Suspend with `Ctrl + Z`, resume with `fg`
 
-- Foreground vs Background Processes
-    - Foreground:
-        - Run directly in the terminal 
-        - Output shown immediately 
-        Example:
-        ```bash 
-        echo "hello"
-        ```
-        - Foregrounding a task: 
-            - `fg` 
-            - Brings the most recent backgrounded process to the foreground
-            - Useful for resuming interaction with paused or backgrounded scripts
-        Example
-        ```bash 
-        ./background.sh # Background with CTRL + z
-        fg # Foreground the script 
+---
 
-
-    - Background:
-        - Run without occupying the terminal
-        - Append `&` to run in background:
-    
-    Suspending:
-        - Use `Ctrl + Z` to pause and background a running process
-
-### ⚙️ Task : 
+### ⚙️ Task 6: Automation  
 **Concepts Covered**:
+
+- **Cron & Crontab**:
+    - `cron` is a daemon that runs scheduled tasks
+    - `crontab` is a file that defines scheduled jobs using a specific time format
+
+- **Crontab Format**:
+    ```
+    MIN HOUR DOM MON DOW CMD
+    ```
+    | Field | Description                          |
+    |-------|--------------------------------------|
+    | MIN   | Minute (0–59)                        |
+    | HOUR  | Hour (0–23)                          |
+    | DOM   | Day of Month (1–31)                  |
+    | MON   | Month (1–12)                         |
+    | DOW   | Day of Week (0–7, 0 and 7 = Sunday)  |
+    | CMD   | The command to run                   |
+
+- **Wildcards**:
+    - `*` is used as a wildcard for any value in a field
+
+- **Example**:
+    - Backup Documents folder every 12 hours:
+    ```bash
+    0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/
+    ```
+
+- **Editing Crontabs**:
+    - Use `crontab -e` to edit your user’s scheduled jobs
+
+- **Helpful Resources**:
+    - [Crontab Guru](https://crontab.guru/)
+    - Crontab generators for easier formatting
+
+---
+
+### ⚙️ Task 7: Package Management  
+**Concepts Covered**:
+
+- **APT Repositories**:
+    - Developers submit software to "apt" repositories
+    - Approved packages become available to users
+    - Supports open-source accessibility
+
+- **Managing Repositories**:
+    - Use `add-apt-repository` to add new repositories
+    - Community and vendor repositories can be added
+    - Can also manually add entries to `/etc/apt/sources.list.d/`
+
+- **Adding GPG Keys**:
+    - Ensure software authenticity
+    - Example for Sublime Text:
+    ```bash
+    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+    ```
+
+- **Adding a Repository Manually**:
+    1. Create a `.list` file in `/etc/apt/sources.list.d/`:
+        ```bash
+        sudo nano /etc/apt/sources.list.d/sublime-text.list
+        ```
+    2. Add repository info inside
+    3. Update APT:
+        ```bash
+        sudo apt update
+        ```
+    4. Install the package:
+        ```bash
+        sudo apt install sublime-text
+        ```
+
+- **Removing Repositories/Packages**:
+    - Remove via:
+        ```bash
+        sudo add-apt-repository --remove ppa:PPA_Name/ppa
+        ```
+    - Or manually delete the `.list` file
+    - Then run:
+        ```bash
+        sudo apt remove sublime-text
+        ```
+
+---
+
+### ⚙️ Task 8: Logging  
+**Concepts Covered**:
+
+- **Log Location**:
+    - Most system/service logs are found in `/var/log`
+
+- **Log Rotation**:
+    - Logs are automatically rotated to manage space
+    - Handled by utilities like `logrotate`
+
+- **Service Logs**:
+    - **Apache2**:
+        - `access.log` – every request made to the web server
+        - `error.log` – logs errors and issues
+    - **fail2ban**:
+        - Monitors brute force attempts and logs them
+    - **UFW**:
+        - Logs firewall-related events
+
+- **System Logs**:
+    - Capture:
+        - OS performance
+        - User actions (e.g., login attempts)
+        - Kernel messages
+    - Useful for monitoring system health, intrusion detection, and troubleshooting
 
 ---
 
 ## 🧠 Key Takeaways
 
+- Terminal editors like Nano and Vim are essential for direct file editing
+- Utilities like `wget`, `scp`, and Python HTTP servers help with file transfers
+- Processes can be managed using `ps`, `top`, `kill`, and `systemctl`
+- `cron` and `crontab` allow for automated scheduling of commands
+- APT manages packages and repos; logs are vital for monitoring systems
+
 ---
 
 ## 🛠️ Tools/Commands Learned
 
-| Tool/Command | Purpose |
-|--------------|---------|
-| ``       | |
-
----
-
+| Tool/Command               | Purpose                                                  |
+|----------------------------|----------------------------------------------------------|
+| `nano`                     | Simple terminal-based text editor                        |
+| `vim`                      | Advanced, customizable text editor                       |
+| `wget`                     | Download files via HTTP/HTTPS                            |
+| `scp`                      | Secure file transfer over SSH                            |
+| `python3 -m http.server`   | Serve files over HTTP from current directory             |
+| `ps`                       | View running processes                                   |
+| `top`                      | Real-time process monitor                                |
+| `kill`                     | Terminate processes by PID                               |
+| `systemctl`                | Manage systemd services                                  |
+| `fg`                       | Bring background process to foreground                   |
+| `crontab -e`               | Edit the current user’s cron jobs                        |
+| `apt`                      | Install, update, or remove software packages             |
+| `add-apt-repository`       | Add (or remove) APT repositories                         |
+| `apt-key add`              | Add trusted GPG keys for repositories                    |
+| `logrotate`                | Manage automatic rotation of system logs                 |
