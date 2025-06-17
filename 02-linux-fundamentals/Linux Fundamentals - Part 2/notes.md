@@ -27,7 +27,10 @@
 ### ⚙️ Task 2: SSH
 **Concepts Covered**:
 - Protocol allowing remote access to a machine
-- 
+- Syntax:
+  ```bash
+  ssh user@ip:port
+  ```
 
 ### ⚙️ Task 3: Flags and Switches
 **Concepts Covered**:
