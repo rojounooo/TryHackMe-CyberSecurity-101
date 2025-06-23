@@ -121,11 +121,46 @@
 ---
 
 ### ⚙️ Task 4: The File System
+**Concepts Covered**:
+- **NTFS**:
+    - New Technology File System
+    - Previously **FAT**16/32 (File Allocation Table) and **HPFS** (High Performance File System)
+    - FAT partitions used in USBs, MicroSDs, etc.
+
+- Journaling:
+    - In case of failure, FS can repair folders/files using log file info
+    - Not possible with FAT
+
+- Benefits:
+    - Supports files > 4GB
+    - Set permissions
+    - Compression 
+    - Encryption
+
+| **Permission**         | **Meaning for Folders**                                                                                     | **Meaning for Files**                                                             |
+|------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **Read**               | Permits viewing and listing of files and subfolders                                                         | Permits viewing or accessing of the file's contents                               |
+| **Write**              | Permits adding of files and subfolders                                                                       | Permits writing to a file                                                          |
+| **Read & Execute**     | Permits viewing and listing of files and subfolders as well as executing of files; inherited by files and folders | Permits viewing and accessing of the file's contents as well as executing of the file |
+| **List Folder Contents** | Permits viewing and listing of files and subfolders as well as executing of files; inherited by folders only | N/A                                                                                |
+| **Modify**             | Permits reading and writing of files and subfolders; allows deletion of the folder                          | Permits reading and writing of the file; allows deletion of the file              |
+| **Full Control**       | Permits reading, writing, changing, and deleting of files and subfolders                                    | Permits reading, writing, changing and deleting of the file                       |
+
+
 ### ⚙️ Task 5: The Windows\System32 Folders
+**Concepts Covered**:
+
 ### ⚙️ Task 6: User Accounts, Profiles, and Permissions
+**Concepts Covered**:
+
 ### ⚙️ Task 7: User Account Control
+**Concepts Covered**:
+
 ### ⚙️ Task 8: Settings and the Control Panel
+**Concepts Covered**:
+
 ### ⚙️ Task 9: Task Manager
+**Concepts Covered**:
 
 ## 🧠 Key Takeaways
 
