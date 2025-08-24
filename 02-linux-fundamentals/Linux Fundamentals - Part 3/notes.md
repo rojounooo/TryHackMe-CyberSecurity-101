@@ -1,8 +1,8 @@
-# 🏫 TryHackMe Room: Linux 
+# 🏫 TryHackMe Room: Linux Fundamentals Part 3
 
-> Category:  
-> Difficulty:  
-> Room URL: https://tryhackme.com/room/
+> Category: Linux
+> Difficulty: Easy
+> Room URL: https://tryhackme.com/room/linuxfundamentalspart3
 
 ---
 
