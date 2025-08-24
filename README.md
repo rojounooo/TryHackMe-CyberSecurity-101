@@ -56,15 +56,12 @@ Module-Name/
 ├── Room-1/
 │   ├── notes.md
 │   ├── walktrhough.md
-│   └── screenshots/
 ├── Room-2/
 │   ├── notes.md
 │   ├── walkthrough.md
-│   └── screenshots/
 └── Room-3/
     ├── notes.md
     ├── walkthrough.md
-    └── screenshots/
 ```
 ---
 
