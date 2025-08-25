@@ -149,9 +149,38 @@
 
 ### ⚙️ Task 5: The Windows\System32 Folders
 **Concepts Covered**:
+- **Windows Folder** 
+    - The folder that contains the Windows OS
+    - Usually found at `C:\Windows` but any drive will work 
+    - Can technically be in different folders too 
+
+- **Environment Variables** 
+    -  " Environment variables store information about the operating system environment. This information includes details such as the operating system path, the number of processors used by the operating system, and the location of temporary folders "
+
+- **System32 Folder** 
+    - Contains critical OS files 
+    - Deletion of files/folders can break OS
 
 ### ⚙️ Task 6: User Accounts, Profiles, and Permissions
 **Concepts Covered**:
+- **Administrator Accounts** 
+    - Can make system changes: 
+        - Add/Delete Users
+        - Modify groups 
+        - Modify system settings 
+        - Install programs 
+    
+- **Standard User Accounts**
+    - Can only make changes to files/folder they own 
+    - Can't make system changes 
+
+**User Folders:
+    - Each user profile has the same folders:
+        - Desktop
+        - Documents 
+        - Downloads
+        - Music 
+        - Pictures
 
 ### ⚙️ Task 7: User Account Control
 **Concepts Covered**:
@@ -162,21 +191,4 @@
 ### ⚙️ Task 9: Task Manager
 **Concepts Covered**:
 
-## 🧠 Key Takeaways
-
-- Short summary of important concepts to remember
-
----
-
-## 🛠️ Tools/Commands Learned
-
-| Tool/Command | Purpose |
-|--------------|---------|
-| `nmap`       | Network scanning |
-| `whois`      | Domain info lookup |
-
----
-
-## 🔗 Additional Resources
-
-- [Resource Name](URL) – Short description
+--- 
