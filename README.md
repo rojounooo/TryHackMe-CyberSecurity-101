@@ -55,7 +55,7 @@ The repo will be structured in the following format. My notes for each room will
 Module-Name/
 ├── Room-1/
 │   ├── notes.md
-│   ├── walktrhough.md
+│   ├── walkthrough.md
 ├── Room-2/
 │   ├── notes.md
 │   ├── walkthrough.md
