@@ -49,11 +49,24 @@
         - No GUI Boot
     
 - **Services**
-    
+    - Lists all running/stopped services
+    - Services are backgrounded applications
+
+- **Startup** 
+    - Directs you to Task Manager
+    - MSconfig is not used for managing startup services/programs
+
+- **Tools** 
+    - Utilities to configure the operating system 
+    - Each tool has a brief description
+    - To run a tool:
+        - Launch via run prompt
+        - Launch via command prompt
+        - Click Launch button
 
 ### ⚙️ Task 3: Change UAC Settings
 **Concepts Covered**:
-- Bullet points of key concepts
+- 
 
 ### ⚙️ Task 4: Computer Management
 **Concepts Covered**:
