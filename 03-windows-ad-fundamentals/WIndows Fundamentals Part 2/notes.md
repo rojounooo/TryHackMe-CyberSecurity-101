@@ -176,7 +176,24 @@
 
 ### ⚙️ Task 5: System Information
 **Concepts Covered**:
-- 
+- **msinfo32**
+- Displays a summary of hardware, system components and software environment
+
+- System summary displayed general information such as processor brand and model 
+- 3 Sections:
+    - **Hardware Resources**
+        - Not for average user
+    - **Components**
+        - Specific info about hardware devices installed on computer
+    - **Software Environment**
+        - OS Software 
+        - Install Software 
+        - Environment Variables 
+        - Network Connections
+
+- **Environment variables**
+    - Store data used by OS and other programs 
+    - WINDIR environment variable contains the location of the Windows directory 
 
 ### ⚙️ Task 6: Resource Monitor
 **Concepts Covered**:
