@@ -26,7 +26,30 @@
 
 ### ⚙️ Task 2: System Configuration
 **Concepts Covered**:
-- Bullet points of key concepts
+- **MSConfig** is for advanced troubleshooting 
+- Main purpose is to diagnose startup issues 
+- Launch via start menu 
+
+- 5 Main Tabs:
+    - General 
+    - Boot 
+    - Services 
+    - Startup 
+    - Tools
+
+- **General**
+    - Select which devices and services are loaded upon boot 
+        - Normal
+        - Diagnostic
+        - Selective
+    
+- **Boot**
+    - Choose boot options for the OS 
+        - Safe Boot 
+        - No GUI Boot
+    
+- **Services**
+    
 
 ### ⚙️ Task 3: Change UAC Settings
 **Concepts Covered**:
@@ -54,11 +77,6 @@
 
 ---
 
-## 🧠 Key Takeaways
-
-- Short summary of important concepts to remember
-
----
 
 ## 🛠️ Tools/Commands Learned
 
