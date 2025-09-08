@@ -182,13 +182,37 @@
         - Music 
         - Pictures
 
+    - Found at `C:/Users/Username
+
+- Users can be added to multiple groups 
+- Different groups have different sets of permissions 
+
 ### ⚙️ Task 7: User Account Control
 **Concepts Covered**:
+
+- Most home users are **local administrators** 
+- **User Account Control** (**UAC**) introduced 
+- First introduced in Windows Vista
+- Local admins won't be logged in with elevated permissions
+- A prompt will be given if an action requires higher-level permissions
+- Programs with a shield icon will require UAC to install 
+- If no password is provided ,for some time, the UAC prompt will disappear
 
 ### ⚙️ Task 8: Settings and the Control Panel
 **Concepts Covered**:
 
+- Settings menu and Control Panel are used to make changed
+- Originally, Control Panel was the primary location but now Settings is used more often 
+- Control panel is used for more complex actions like changing the network adapter options
+- search for setting you want to change using the start menu 
+-
+
 ### ⚙️ Task 9: Task Manager
 **Concepts Covered**:
+
+- Provides information about the applications and processes currently running on the system 
+- CPU and RAM usage also shown under Performance 
+- Access by right clicking Task bar and selecting Task Manager 
+- Access it by pressing `CTRL + Shift + Esc`
 
 --- 
