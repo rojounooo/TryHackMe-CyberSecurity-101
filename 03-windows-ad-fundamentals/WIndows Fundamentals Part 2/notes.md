@@ -1,39 +1,56 @@
-# 🏫 TryHackMe Room: [Room Name]
+# 🏫 TryHackMe Room: Windows Fundamentals Part 2
 
-> Category: [e.g., Networking, Pentesting, Malware]
-> Difficulty: [Easy | Medium | Hard]
-> Room URL: [https://tryhackme.com/room/ROOMNAME]
+> Category: Windows
+> Difficulty: Easy
+> Room URL: https://tryhackme.com/room/windowsfundamentalsparttwo
 
 ---
 
 ## 🗂️ Overview
 
-Brief summary of the room and what it covers.
+- Covers Windows utilities such as Resource Monitor and CMD
+- Covers how to access the utilities 
 
 ---
 
 ## 📚 Learning Objectives
 
-- [ ] Objective 1
-- [ ] Objective 2
-- [ ] Objective 3
+- Understand Utilities 
+- Be able to navigate to the utilities 
+- Understand usage 
 
 ---
 
 ## 🧾 Section Summaries
 
-### 📦 Task 1: [Task Title]
+
+### ⚙️ Task 2: System Configuration
 **Concepts Covered**:
 - Bullet points of key concepts
 
-
----
-
-### ⚙️ Task 2: [Task Title]
+### ⚙️ Task 3: Change UAC Settings
 **Concepts Covered**:
 - Bullet points of key concepts
 
+### ⚙️ Task 4: Computer Management
+**Concepts Covered**:
+- Bullet points of key concepts
 
+### ⚙️ Task 5: system Information
+**Concepts Covered**:
+- Bullet points of key concepts
+
+### ⚙️ Task 6: Resource Monitor
+**Concepts Covered**:
+- Bullet points of key concepts
+
+### ⚙️ Task 7: Command Prompt
+**Concepts Covered**:
+- Bullet points of key concepts
+
+### ⚙️ Task 8: Registry Editor
+**Concepts Covered**:
+- Bullet points of key concepts
 
 ---
 
@@ -54,4 +71,3 @@ Brief summary of the room and what it covers.
 
 ## 🔗 Additional Resources
 
-- [Resource Name](URL) – Short description
