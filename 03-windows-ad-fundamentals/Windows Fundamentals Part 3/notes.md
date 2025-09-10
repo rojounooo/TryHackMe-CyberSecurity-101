@@ -1,45 +1,56 @@
-# 🏫 TryHackMe Room: [Room Name]
+# 🏫 TryHackMe Room: Windows Fundamentals 3
 
-> Category: [e.g., Networking, Pentesting, Malware]
-> Difficulty: [Easy | Medium | Hard]
-> Room URL: [https://tryhackme.com/room/ROOMNAME]
+> Category: Windows
+> Difficulty: Easy
+> Room URL: https://tryhackme.com/room/windowsfundamentals3xzx
 
 ---
 
 ## 🗂️ Overview
 
-Brief summary of the room and what it covers.
+Built in Microsoft Security Tools such as Windows Updates and BitLocker
 
 ---
 
 ## 📚 Learning Objectives
 
-- [ ] Objective 1
-- [ ] Objective 2
-- [ ] Objective 3
+- Understand the different tools 
 
 ---
 
 ## 🧾 Section Summaries
 
-### 📦 Task 1: [Task Title]
+### ⚙️ Task 2: Windows Updates
 **Concepts Covered**:
 - Bullet points of key concepts
 
-
----
-
-### ⚙️ Task 2: [Task Title]
+### ⚙️ Task 3: Windows Security
 **Concepts Covered**:
 - Bullet points of key concepts
 
+### ⚙️ Task 4: Virus & Threat Protection 
+**Concepts Covered**:
+- Bullet points of key concepts
 
+### ⚙️ Task 5: Firewall and Network Protection
+**Concepts Covered**:
+- Bullet points of key concepts
 
----
+### ⚙️ Task 6: App & Browser Control
+**Concepts Covered**:
+- Bullet points of key concepts
 
-## 🧠 Key Takeaways
+### ⚙️ Task 7: Device security
+**Concepts Covered**:
+- Bullet points of key concepts
 
-- Short summary of important concepts to remember
+### ⚙️ Task 8: BitLocker
+**Concepts Covered**:
+- Bullet points of key concepts
+
+### ⚙️ Task 9: Volume Shadow Copy Service
+**Concepts Covered**:
+- Bullet points of key concepts
 
 ---
 
