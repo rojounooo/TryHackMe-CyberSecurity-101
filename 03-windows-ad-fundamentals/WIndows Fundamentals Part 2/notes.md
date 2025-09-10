@@ -197,27 +197,44 @@
 
 ### ⚙️ Task 6: Resource Monitor
 **Concepts Covered**:
-- Bullet points of key concepts
+- **resmon** 
+- A tool that provides real-time data about system resources.
+- Monitors CPU, memory, disk, and network usage.
+- Displays processes and services using resources.
+- Allows users to analyze performance and troubleshoot issues.
+- Provides detailed information about each resource and its usage patterns.
 
 ### ⚙️ Task 7: Command Prompt
 **Concepts Covered**:
-- Bullet points of key concepts
+- A command-line interface for Windows.
+- Allows users to execute commands and run scripts.
+- Common commands include 'dir' (to list directory contents) and 'cd' (to change directories).
+- Useful for troubleshooting and system management.
+- Supports batch scripting for automating tasks.
 
 ### ⚙️ Task 8: Registry Editor
 **Concepts Covered**:
-- Bullet points of key concepts
-
+- **regedit**
+- Database storing information for configuring system for users, applications and hardware devices 
+- Contains: 
+    - Profiles for each user 
+    - Installed applications 
+    - Existing hardware 
+    - Ports in use
 ---
-
 
 ## 🛠️ Tools/Commands Learned
 
 | Tool/Command | Purpose |
 |--------------|---------|
-| `nmap`       | Network scanning |
-| `whois`      | Domain info lookup |
+| `hostname`   | Finding computer name |
+| `whoami`     | Name of logged in user |
+| `ipconfig`   | Displays network address settings | 
+| `cls`        | Clears the terminal |
+| `netstat`    | Displays protocol stats |
+| `/?`         | Displays help menus for commands |
 
 ---
 
-## 🔗 Additional Resources
+
 
